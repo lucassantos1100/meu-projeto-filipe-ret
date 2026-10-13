@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: "Passion One", sans-serif;
+    --fonte2: "Sriracha", cursive;
+}
+
+html, body {
+margin: 0px;
+padding: 0px;
+height: 100vh;
+
+}
+
+header {
+    background-image: url("imagens/Filipe\ Ret.webp");
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-top: 100px;
+}
+
+header > h1 {
+    font-family: var(--fonte1);
+    font-size: 3em;
+    font-variant: small-caps;
+}
+
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a :hover {
+    text-decoration: underline;
+}
+
+section {
+    font-family: var(--fonte2);
+    line-height: 50px;
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-position: cover;
+    font-size: 2em;
+}
+
+section > h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 3vh;
+}
+
+section.normal {
+    color: black;
+    
+}
+
+section.imagem {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    background-color: rgba(14, 14, 14, 0.596);
+    width: 50vw;
+    padding: 5px;
+}
+
+section#img01 {
+    background-image: url("https://www.jornalnopalco.com.br/wp-content/uploads/2022/10/279713501_702082997875067_1621228815695924867_n.jpg");
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url("https://cadernopop.com.br/wp-content/uploads/2023/12/filipe-ret.jpg");
+    background-position: right center;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+footer > p {
+    color: white;
+}
+
