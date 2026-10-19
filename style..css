@@ -82,13 +82,13 @@ section.imagem > p {
 
 section#img01 {
     background-image: url("https://www.jornalnopalco.com.br/wp-content/uploads/2022/10/279713501_702082997875067_1621228815695924867_n.jpg");
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
 }
 
 section#img02 {
     background-image: url("https://cadernopop.com.br/wp-content/uploads/2023/12/filipe-ret.jpg");
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
 }
 
